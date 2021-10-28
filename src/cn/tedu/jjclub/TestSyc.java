@@ -12,9 +12,5 @@ public class TestSyc {
         int a = new Scanner(System.in).nextInt();
         TrueMan man = new TrueMan();
         System.out.println(man.op(a));
-        while(true){
-            System.out.println("兄弟们，一起导起来！");
-
-        }
     }
 }
