@@ -1,5 +1,6 @@
 package cn.tedu.jjclub;
 
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -12,6 +13,6 @@ public class TestSyc {
         int a = new Scanner(System.in).nextInt();
         TrueMan man = new TrueMan();
         System.out.println(man.op(a));
-        //132456
+        //18838883300 冲啊
     }
 }
