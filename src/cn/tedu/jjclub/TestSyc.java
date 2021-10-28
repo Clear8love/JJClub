@@ -12,13 +12,15 @@ import java.util.Scanner;
 public class TestSyc {
     public static void main(String[] args) {
         Date d = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
+        System.out.println("北京时间 ： "+d);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd   hh:mm:ss");
         String s = sdf.format(d);
         System.out.println("北京时间："+s);
         System.out.println("兄弟们，输入0-7随便一个整数");
         int a = new Scanner(System.in).nextInt();
         TrueMan man = new TrueMan();
         System.out.println(man.op(a));
+
         //18838883300 冲啊
         for (int i = 0; i < 10 ; i++) {
             System.out.println(man.op(a)+"天下第一");
