@@ -7,7 +7,7 @@ package cn.tedu.jjclub;
 public class TestSyc {
     public static void main(String[] args) {
         while(true){
-            System.out.println("兄弟们，一起导起来！");
+            System.out.println("兄弟们，一起导起来！"); //NANDI的注释
         }
     }
 }
