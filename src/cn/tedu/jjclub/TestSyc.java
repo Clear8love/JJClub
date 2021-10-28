@@ -12,10 +12,12 @@ public class TestSyc {
     public static void main(String[] args) {
         Date d = new Date();
         System.out.println("北京时间："+d);
+        long m=18838883300L;
+        System.out.println("小明随时Call："+m);
         System.out.println("兄弟们，输入0-7随便一个整数");
         int a = new Scanner(System.in).nextInt();
         TrueMan man = new TrueMan();
         System.out.println(man.op(a));
-        //18838883300 冲啊
+
     }
 }
