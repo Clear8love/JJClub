@@ -12,5 +12,6 @@ public class TestSyc {
         int a = new Scanner(System.in).nextInt();
         TrueMan man = new TrueMan();
         System.out.println(man.op(a));
+        //132456
     }
 }
