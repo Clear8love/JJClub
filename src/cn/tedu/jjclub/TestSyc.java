@@ -13,8 +13,10 @@ public class TestSyc {
     public static void main(String[] args) {
         Date d = new Date();
         System.out.println("北京时间 ： "+d);
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd   hh:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日   HH:mm:ss");
         String s = sdf.format(d);
+        Long l=18838883300L;
+        System.out.println("小明随时Call："+l);
         System.out.println("北京时间："+s);
         System.out.println("兄弟们，输入0-7随便一个整数");
         int a = new Scanner(System.in).nextInt();
