@@ -16,6 +16,9 @@ public class TestSyc {
         String s = sdf.format(d);
         System.out.println("北京时间："+s);
         System.out.println("兄弟们，输入0-7随便一个整数");
+        for (int i = 0; i < 10 ; i++) {
+            System.out.println("一郎天下第一");
+        }
         int a = new Scanner(System.in).nextInt();
         TrueMan man = new TrueMan();
         System.out.println(man.op(a));
